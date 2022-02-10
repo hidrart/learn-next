@@ -38,9 +38,7 @@ export default function FirstPost({ allpost }) {
 										<div className='item flex w-full justify-between border-b border-slate-100 pb-4'>
 											<div className='w-9/10'>
 												<h1 className='text-lg font-bold text-slate-900'>{post.title}</h1>
-												<p className='text-md font-semibold text-sky-500'>
-													<Date dateString={post.date}></Date>
-												</p>
+												<p className='text-md font-semibold text-sky-500'>{post.date}</p>
 											</div>
 											<div className='w-1/10 p-1'>
 												<BookmarkIcon className='h-5 w-5 text-sky-500' />
