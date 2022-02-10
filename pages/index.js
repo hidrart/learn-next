@@ -13,12 +13,17 @@ export default function Home() {
 			<main className={styles.main}>
 				<h1 className={(styles.title, 'text-6xl font-bold')}>
 					Learn{' '}
-					<a href='https://nextjs.org' className='text-blue-500 underline-offset-4 hover:underline'>
+					<a href='https://nextjs.org' className='text-sky-500 underline-offset-4 hover:underline'>
 						Next.js!
 					</a>
 				</h1>
-				<p className={styles.description}>
-					Get started by editing <code className={styles.code}> pages / index.js </code>
+				<p className='mb-16 mt-10 w-1/2 text-center'>
+					<span className='font-bold'>Lorem ipsum</span> dolor sit amet consectetur adipisicing elit. Qui,
+					unde rem maiores ab dolore commodi tempora molestias adipisci optio voluptate nisi numquam{' '}
+					<span className='underline decoration-sky-500 decoration-dotted decoration-2 underline-offset-2'>
+						officiis
+					</span>{' '}
+					laboriosam quas nam obcaecati sapiente reprehenderit sed?
 				</p>
 				<div className={styles.grid}>
 					<a href='https://nextjs.org/docs' className={styles.card}>
@@ -38,11 +43,6 @@ export default function Home() {
 						<p> Instantly deploy your Next.js site to a public URL with Vercel. </p>
 					</a>
 				</div>
-				<Link href='/post/first-post' passHref>
-					<a className='bg-blue mt-4 inline-block rounded-md bg-slate-800 px-3 py-2 text-white'>
-						Explore Post
-					</a>
-				</Link>
 			</main>
 		</Layout>
 	);
