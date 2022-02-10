@@ -5,7 +5,6 @@ import Layout from '../components/layout';
 import { getSortedPostData } from '../../lib/post';
 import { BookmarkIcon } from '@heroicons/react/outline';
 import Profile from '../components/profile';
-import Date from '../components/date';
 
 export async function getStaticProps() {
 	const allpost = getSortedPostData();

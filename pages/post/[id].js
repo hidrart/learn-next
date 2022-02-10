@@ -4,7 +4,6 @@ import { getAllPostIds } from '../../lib/post';
 import { getPostData } from '../../lib/post';
 import Profile from '../components/profile';
 import { BookmarkIcon } from '@heroicons/react/outline';
-import Date from '../components/date';
 
 export async function getStaticPaths() {
 	const paths = getAllPostIds();
